@@ -58,7 +58,7 @@ struct SafePasswordView: View {
             Text("Safe password").bold().font(.system(size: 30)).padding(.top, 20)
             Spacer()
             
-            Text("A safe password is hard to predict and should contain at least 15 - 20 characters. We would recommend using a combination of random letters, which are randomly cased and are seperated by numbers or special characters.").padding(.horizontal, 20);
+            Text("A safe password is hard to predict and should contain at least 12 - 20 characters. We would recommend using a combination of random letters, which are randomly cased and are seperated by numbers or special characters.").padding(.horizontal, 20);
             
             VStack(alignment: .leading) {
                 Text("Example:").bold().padding(.bottom, 5)
