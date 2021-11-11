@@ -35,7 +35,7 @@ struct RegisterView: View {
             Button("Set password") {
                 var hashedPassword = sha256(text: self.userPassword)
                 
-                if(hashedPassword == sha256(text: self.userRepeatPassword)) {
+                if(hashedPassword != sha256(text: self.userRepeatPassword)) {
                     //TODO: show error
                     return;
                 }
